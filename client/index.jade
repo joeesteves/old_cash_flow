@@ -1,0 +1,9 @@
+html(ng-app="app")
+  base(href="/")
+  head
+    // Vendor
+    link(rel="stylesheet" type="text/css" href="dist/styles/bootstrap.min.css")
+    link(rel="stylesheet" type="text/css" href="dist/styles/general.css")
+  body
+    div(ui-view="")
+    script(src='dist/js/bundle.js')
